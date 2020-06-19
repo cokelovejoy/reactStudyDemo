@@ -16,9 +16,6 @@ export default class Layout extends Component {
                 { showTopBar && <TopBar />}
                 { children }
                 {/* 子组件 */}
-                { children.content }
-                { children.txt }
-                <button onClick={children.btnClick}></button>
                 { showBottomBar && <Bottom />}
             </div>
         )
