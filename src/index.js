@@ -8,9 +8,12 @@ import Lifecyclepage from './pages/Lifecyclepage.js'
 import Layout from './pages/Layout'
 import ReduxPage from './pages/ReduxPage'
 import { Provider } from 'react-redux'
-import ReactReduxPage from './pages/ReactReduxPage';
+import ReactReduxPage from './pages/ReactReduxPage'
 import store from './store/ReduxStore'
 import RouterPage from './pages/RouterPage'
+import PureComponentPage from './pages/PureComponent'
+import HookPage from './pages/HookPage'
+import UseMemoPage from './pages/UseMemoPage'
 
 const show = true
 const greet = <h2>Good</h2>
@@ -61,6 +64,15 @@ const JSX = (
     </div>
     <div>
       <RouterPage></RouterPage>
+    </div>
+    <div>
+      <PureComponentPage></PureComponentPage> 
+    </div>
+    <div>
+      <HookPage></HookPage>
+    </div>
+    <div>
+      <UseMemoPage></UseMemoPage>
     </div>
   </Provider>
 )
